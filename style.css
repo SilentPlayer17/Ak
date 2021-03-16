@@ -1,0 +1,158 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            
+            html,
+            body {
+                height: 100%;
+                width: 100%;
+            }
+            
+            #bg {
+                width: 100%;
+                height: 100%;
+                background-image: linear-gradient(to right, rgba(21, 18, 185, 0.938), rgb(2, 195, 254));
+                padding-top: 45px;
+                padding-bottom: 45px;
+                padding-right: 30px;
+                padding-left: 40px;
+                display: flex;
+            }
+            
+            #left {
+                height: 100%;
+                width: 30%;
+                background-color: transparent;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                color: white;
+            }
+            
+            #left img {
+                width: 53px;
+                height: 75px;
+                margin-bottom: 17px;
+            }
+            
+            #left h1 {
+                margin-bottom: 27px;
+            }
+            
+            #left h3 {
+                font-weight: 100;
+            }
+            
+            #left button {
+                height: 40px;
+                width: 150px;
+                margin-top: 135px;
+                border-radius: 50px;
+                border: none;
+                font-weight: 700;
+                cursor: pointer;
+                color: rgba(0, 0, 0, 0.699);
+                background-color: white;
+            }
+            
+            #right {
+                height: 100%;
+                width: 70%;
+                background: rgb(255, 255, 255);
+                border-top-left-radius: 140px 510px;
+                border-bottom-left-radius: 140px 510px;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                padding-right: 35px;
+                padding-left: 100px;
+            }
+            
+            #top {
+                margin-left: 78%;
+                border-radius: 50px;
+                padding: 4px;
+                height: 40px;
+                width: 210px;
+                background-color: rgb(27, 74, 206);
+            }
+            
+            #top button {
+                background-color: #fff;
+                border: none;
+                cursor: pointer;
+                height: 100%;
+                width: 50%;
+                font-weight: 700;
+                border-radius: 50px;
+                color: rgba(0, 0, 0, 0.699);
+            }
+            
+            #top a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: 700;
+                margin-left: 25px;
+            }
+            
+            #down {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 26px;
+            }
+            
+            #down h1 {
+                color: rgba(0, 0, 0, 0.699);
+                margin-bottom: 30px;
+                font-weight: 600;
+                letter-spacing: 2px;
+            }
+            
+            .tag {
+                height: 40px;
+                width: 350px;
+                margin-top: 20px;
+                margin-left: 20px;
+                border-radius: 5px;
+                border-width: 0.5px;
+                padding: 10px;
+            }
+            
+            #sub {
+                height: 40px;
+                width: 150px;
+                margin-top: 45px;
+                margin-left: 79.5%;
+                border-radius: 50px;
+                border: none;
+                font-weight: 700;
+                cursor: pointer;
+                color: white;
+                background-color: rgb(27, 74, 206);
+            }
+            
+            .tag2 {
+                margin-top: 15px;
+                margin-left: 20px;
+            }
+            
+            #tag {
+                height: 40px;
+                width: 350px;
+                margin-top: 20px;
+                margin-left: 20px;
+                border-radius: 5px;
+                border-width: 0.5px;
+                padding: 10px;
+            }
+            
+            .ShowPasswordNotMatchesError {
+                color: red;
+            }
